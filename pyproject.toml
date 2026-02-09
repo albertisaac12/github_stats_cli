@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "github-stats-cli"
+version = "0.1.0"
+authors = [{ name = "Abhi Gadipalli", email = "forvalorantplaying@gmail.com" }]
+description = "A CLI tool to fetch and display GitHub user and repository statistics"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Version Control :: Git",
+]
+dependencies = ["requests>=2.28.0", "rich>=13.0.0", "click>=8.0.0"]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/github-stats-cli"
+Issues = "https://github.com/yourusername/github-stats-cli/issues"
+
+[project.scripts]
+ghstats = "github_stats_cli.cli:main"
