@@ -240,10 +240,8 @@ MIT License - see LICENSE file for details
 
 ## Author
 
-Your Name - your.email@example.com
+Abhi Gadipalli
 
 ## Links
 
-- GitHub: https://github.com/yourusername/github-stats-cli
-- PyPI: https://pypi.org/project/github-stats-cli/
-- Issues: https://github.com/yourusername/github-stats-cli/issues
+- GitHub: https://github.com/albertisaac12/github_stats_cli

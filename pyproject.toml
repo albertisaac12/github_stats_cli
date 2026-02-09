@@ -20,8 +20,8 @@ classifiers = [
 dependencies = ["requests>=2.28.0", "rich>=13.0.0", "click>=8.0.0"]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/github-stats-cli"
-Issues = "https://github.com/yourusername/github-stats-cli/issues"
+Homepage = "https://github.com/albertisaac12/github_stats_cli"
+Issues = "https://github.com/albertisaac12/github_stats_cli/issues"
 
 [project.scripts]
 ghstats = "github_stats_cli.cli:main"
